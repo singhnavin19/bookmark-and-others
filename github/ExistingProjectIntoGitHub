@@ -1,0 +1,22 @@
+1. Initialize the local directory as a Git repository.
+     
+     git init -q 
+     
+2. Add the files in your new local repository. This stages them for the first commit.
+    
+     git add .     
+ 
+3. Commit the files that you've staged in your local repository.
+    
+    git commit -m "First commit"
+
+4.  Copy the remote repository URL(git@github.com:singhnavin19/springBoot-basic.git) .          
+	
+	git remote add origin  <REMOTE_URL> 
+	
+    git remote add origin  git@github.com:singhnavin19/springBoot-basic.git
+ 
+5. Push the changes in your local repository to GitHub.
+     
+     git push origin master     
+	
